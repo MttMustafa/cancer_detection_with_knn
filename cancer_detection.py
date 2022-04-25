@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("Python\AI\data.csv")
+data = pd.read_csv("data.csv")
 
 data.drop(["Unnamed: 32"], axis=1, inplace = True)
 data.drop(["id"], axis=1 , inplace = True)
